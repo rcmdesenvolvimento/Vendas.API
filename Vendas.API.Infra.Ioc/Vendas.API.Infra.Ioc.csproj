@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendas.API.Application\Vendas.API.Application.csproj" />
+    <ProjectReference Include="..\Vendas.API.Domain\Vendas.API.Domain.csproj" />
+    <ProjectReference Include="..\Vendas.API.Infra.Data\Vendas.API.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
