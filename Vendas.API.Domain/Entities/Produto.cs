@@ -8,6 +8,7 @@ public sealed class Produto
     public string? Nome { get; private set; }
     public string? CodErp { get; set; }
     public decimal Preco { get; private set; }
+    public ICollection<Compra> Compras { get; set; }
 
     public Produto(string nome, string codErp, decimal preco)
     {

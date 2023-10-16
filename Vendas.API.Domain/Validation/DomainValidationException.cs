@@ -9,4 +9,8 @@ public class DomainValidationException : Exception
         if (hasError) throw new DomainValidationException(message);
     }
 
+    internal static void When(object value, string v)
+    {
+        throw new NotImplementedException();
+    }
 }

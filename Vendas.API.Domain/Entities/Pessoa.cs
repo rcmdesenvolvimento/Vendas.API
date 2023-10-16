@@ -8,6 +8,7 @@ public sealed class Pessoa
     public string? Nome { get; private set; }
     public string? Documento { get; private set; }
     public string? Telefone { get; private set; }
+    public ICollection<Compra> Compras { get; set; }
 
     public Pessoa(string nome, string documento, string telefone)
     {
