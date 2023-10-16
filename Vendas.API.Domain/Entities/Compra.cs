@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Vendas.API.Domain.Validation;
+﻿using Vendas.API.Domain.Validation;
 
 namespace Vendas.API.Domain.Entities
 {
     public class Compra
     {
-        public int Id { get; private set; }
+        public int Id { get; private set; } 
         public int ProdutoId { get; private set; }
         public int PessoaId { get; private set; }
         public DateTime Data { get; private set; }
